@@ -30,9 +30,9 @@ import pub.devrel.easypermissions.EasyPermissions;
 
 public class VideoChatActivity extends AppCompatActivity implements Session.SessionListener, PublisherKit.PublisherListener {
 
-    private static String API_Key="46652352";
-    private static String SESSION_ID="2_MX40NjY1MjM1Mn5-MTU4NjE4NTI4NTE3OH45QVZJamltM0JNMnA2UGtIWEpBTWpNMGl-fg";
-    private static String TOKEN="T1==cGFydG5lcl9pZD00NjY1MjM1MiZzaWc9ZDEwODYxNTdjZjE3YTRlZjY1ZDk4ZThiNmRjZGQxNGY0ODU0ZWIyNzpzZXNzaW9uX2lkPTJfTVg0ME5qWTFNak0xTW41LU1UVTROakU0TlRJNE5URTNPSDQ1UVZaSmFtbHRNMEpOTW5BMlVHdElXRXBCVFdwTk1HbC1mZyZjcmVhdGVfdGltZT0xNTg2MTg1NDM2Jm5vbmNlPTAuMDI2MTEzMjY0OTUxMDA0MDc4JnJvbGU9cHVibGlzaGVyJmV4cGlyZV90aW1lPTE1ODg3Nzc0MzMmaW5pdGlhbF9sYXlvdXRfY2xhc3NfbGlzdD0=";
+    private static String API_Key=""; // enter your api key
+    private static String SESSION_ID=""; //here id
+    private static String TOKEN=""; // here token
     private static final String LOG_TAG=VideoChatActivity.class.getSimpleName();
     private static final int RC_VIDEO_APP_PERM=124;
     private FrameLayout mPublisherViewController;
